@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="Eligibility Criteria"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/login"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="33dp"
+            android:text="Blood Donor Qualifications:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textsize"
+            android:layout_marginTop="17dp"
+            android:text="Age:18(16 and 17 )year olds can donate with a Minor donor  permission form signed by a parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView8"
+            android:layout_marginTop="33dp"
+            android:text="Weight:At least 110 lbs(different requirements for 16-22 years old)" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView8"
+            android:layout_marginTop="15dp"
+            android:text="Health:General good health" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="6dp"
+            android:text="Identification:Valid identification such as driving license,Aadhar Card,Passport, etc." />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView13"
+            android:layout_marginTop="21dp"
+            android:text="Quick Tips:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView14"
+            android:layout_marginTop="18dp"
+            android:text="Diet:A well balanced meal is recomnded within 4 hours of donations" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView15"
+            android:layout_marginTop="20dp"
+            android:text="Do not Donate if any of the following apply to you:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView23"
+            android:layout_alignBottom="@+id/textView23"
+            android:layout_alignParentStart="true"
+            android:text="HIV/AIDS:You are a person with symptoms or laboratory evidence of HIV infections  "
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView18"
+            android:text="Cancer: Hematological,i.e Hodgkin,Leukemia,Lymphomas." />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView19"
+            android:text="Hepatitis:A history of the disease after age of eleven or a positive lab test for virus" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView20"
+            android:text="Organ Failure: Kidney,Lung or Liver failure." />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView21"
+            android:text="Recreational Drug Use(by injection):Having injected yourself with drugs not prescribed by a physician." />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView17"
+            android:layout_marginTop="24dp" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "902785091670",
+    "firebase_url": "https://shareblood-4b3ad.firebaseio.com",
+    "project_id": "shareblood-4b3ad",
+    "storage_bucket": "shareblood-4b3ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902785091670:android:24908323dae0f7ff",
+        "android_client_info": {
+          "package_name": "com.example.hp.shareblood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902785091670-tfarl2bmfn7tb2posul8hdem32mft14u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.shareblood",
+            "certificate_hash": "617bd1a2e5d7053c1f874f26c8188227fbb15cbf"
+          }
+        },
+        {
+          "client_id": "902785091670-plo9mqgcsqk7595rosgdjrf2sclt7g0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEil22jQ3_VZA2O8oPrYIR1NeeGTPMyBo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902785091670-plo9mqgcsqk7595rosgdjrf2sclt7g0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
